@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    tools:context=".MainActivity"
+    android:baselineAligned="false">
+
+
+    <FrameLayout
+    android:id="@+id/camera_preview"
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true">
+
+</FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/iamge_preview"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/camera_preview"
+        android:text="x" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="capture"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/camera_preview" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/camera_preview"/>
+</RelativeLayout>

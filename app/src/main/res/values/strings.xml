@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CameraSample</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings" id = "action_settings">Settings</string>
+    <string name="capture_button">Capture Image From Camera</string>
+    <string name="desc">capture image place holder</string>
+</resources>
